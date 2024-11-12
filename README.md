@@ -1,5 +1,5 @@
 # LLM-Webscrapper
-```
+
 # GrowthX Company Information Extractor
 
 This project utilizes web scraping and large language models (LLMs) to extract key information about a company from its website.
