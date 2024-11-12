@@ -1,12 +1,12 @@
 # LLM-Webscrapper
 
-# GrowthX Company Information Extractor
+# Company Information Extractor
 
 This project utilizes web scraping and large language models (LLMs) to extract key information about a company from its website.
 
 ## Functionality
 
-The `growthxproject.py` script performs the following:
+The `scrapdata.py` script performs the following:
 
 1. **Web Scraping:** Reads the content of a company's website using the `requests` and `BeautifulSoup` libraries. 
    - Extracts the title, meta description, headings, and paragraphs from the HTML.
@@ -37,12 +37,12 @@ The `growthxproject.py` script performs the following:
 2. **Run the script:**
     Create a file named `urls.txt` with each company URL on a separate line.
      ```bash
-     python growthxproject.py 
+     python scrapdata.py 
      ``` 
 
 ## How it Works
 
-1. **`growthxproject.py`**: Contains the core code for scraping, classifying, generating, and formatting company information.
+1. **`scrapdata.py`**: Contains the core code for scraping, classifying, generating, and formatting company information.
 2. **`company_summary.py`**: A separate script that demonstrates how to call the `extract_company_info` function and provides different ways to input the company URL (direct input, command line argument, file reading). 
 
 ## Requirements
